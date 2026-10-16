@@ -1,0 +1,38 @@
+{
+  "scope": "Passive observation of an already running client; not complete launch coverage",
+  "client_pid": 30348,
+  "client_hwnd": "0x150EFA",
+  "trace_start_local": "2026-10-01T16:33:13.302783-03:00",
+  "trace_end_local": "2026-10-01T16:33:43.795290-03:00",
+  "trace_duration_observed_seconds": 30.059,
+  "events_lost": 0,
+  "target_events": 8443,
+  "category_counts": {
+    "file": 7410,
+    "network": 605,
+    "registry": 16,
+    "process": 8,
+    "image": 404
+  },
+  "client_images_present": 91,
+  "client_dlls_present": 90,
+  "image_load_events": 0,
+  "client_file_operation_counts": {
+    "FileIO/Read": 147,
+    "FileIO/Cleanup": 755,
+    "FileIO/Create": 4594,
+    "FileIO/QueryInfo": 754,
+    "FileIO/Close": 1138,
+    "FileIO/Write": 7
+  },
+  "unresolved_file_events_all_targets": 184,
+  "capture_restore_references_observed": 0,
+  "initial_affinity": "0x0",
+  "final_affinity": "0x1",
+  "final_affinity_query_time": "2026-10-01T16:39:04.4207752-03:00",
+  "affinity_setter_identified": false,
+  "client_modified": false,
+  "dll_injected": false,
+  "capture_session_still_active": false,
+  "close_only_filename_claims_excluded_from_reviewed_subset": true
+}
