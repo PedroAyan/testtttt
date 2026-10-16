@@ -1,0 +1,41 @@
+[
+  {
+    "process_id": 30348,
+    "process_name": "ravenquest_dx",
+    "hwnd": "0x150EFA",
+    "title": "RavenQuest - Ddsadasvczvcz",
+    "class": "ravenquest",
+    "visible": true,
+    "minimized": false,
+    "ex_style": "0x40100",
+    "affinity_query_succeeded": true,
+    "affinity": "0x0",
+    "affinity_error": 0
+  },
+  {
+    "process_id": 30348,
+    "process_name": "ravenquest_dx",
+    "hwnd": "0x680940",
+    "title": "MSCTFIME UI",
+    "class": "MSCTFIME UI",
+    "visible": false,
+    "minimized": false,
+    "ex_style": "0x0",
+    "affinity_query_succeeded": true,
+    "affinity": "0x0",
+    "affinity_error": 0
+  },
+  {
+    "process_id": 30348,
+    "process_name": "ravenquest_dx",
+    "hwnd": "0x150DEE",
+    "title": "Default IME",
+    "class": "IME",
+    "visible": false,
+    "minimized": false,
+    "ex_style": "0x0",
+    "affinity_query_succeeded": true,
+    "affinity": "0x0",
+    "affinity_error": 0
+  }
+]

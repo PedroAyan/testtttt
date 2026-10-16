@@ -1,0 +1,29 @@
+VERIFICAÇÃO DA DLL NATIVA CAPTURERESTORE
+Data: 2026-10-01, 15:26:20–15:26:21, UTC-03
+
+Resultado: APROVADO NO HOST PRÓPRIO.
+ExitCode do TestarDLL.exe /self-test: 0.
+Processo de teste: PID 28696, HWND 0xD0CF0.
+Proprietário da janela: PID 28696, nível superior, DWM habilitado.
+
+Evidência registrada em resultado_teste.json:
+- SetWindowDisplayAffinity da janela própria: sucesso, erro 0, consulta = 1.
+- LoadLibraryEx e GetProcAddress: sucesso (export realmente chamado).
+- RestoreCaptureForOwnedWindow: retorno 0, antes = 1, depois = 0.
+- Consulta independente do host depois da DLL: sucesso, afinidade = 0.
+- Segunda chamada: retorno 0, antes = 0, depois = 0.
+- Restauração ao fechar: sucesso, afinidade = 0.
+- FreeLibrary: sucesso. Sem exceção fatal.
+
+Limites:
+- Não foi executada captura de imagem neste teste.
+- A janela do RavenQuest não foi alterada; nenhum arquivo foi instalado no jogo.
+- Não foram demonstrados carregamento ou execução desta DLL dentro do RavenQuest.
+- Esta DLL realiza restauração pontual; não implementa hook/interceptação.
+- Uma chamada posterior do aplicativo pode reaplicar a restrição.
+- Nenhum diretório de instalação automática da DLL no cliente foi identificado.
+
+Artefato: DLL Windows nativa x64, código em CaptureRestore.c/.h.
+Formato conferido: PE32+ DLL, machine 0x8664, RVA do diretório CLR = 0.
+Programa de validação separado: TestarDLL.exe, .NET Framework x64.
+DllMain não modifica afinidade; o aplicativo precisa chamar explicitamente o export.

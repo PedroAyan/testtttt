@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-10-01T16:27:06.1224270-03:00",
+  "client": "C:\\Program Files (x86)\\Tavernlight Games\\RavenQuest\\ravenquest_dx.exe",
+  "client_sha256": "4DF2F636680FF680DADB3250CD5F51D109F737485BFADFB4800E22E249662AFB",
+  "declared_import_count": 34,
+  "import_examples": [
+    "libGLESv2.dll",
+    "libEGL.dll",
+    "dxgi.dll",
+    "dwmapi.dll",
+    "KERNEL32.dll",
+    "USER32.dll",
+    "GDI32.dll",
+    "WS2_32.dll",
+    "WINMM.dll",
+    "dbghelp.dll",
+    "VCRUNTIME140.dll",
+    "VCRUNTIME140_1.dll"
+  ],
+  "folder_file_counts": {
+    "sounds": 370,
+    "modules": 976,
+    "BattlEye": 23,
+    "data": 27886,
+    "mods": 0
+  },
+  "note": "Installation inventory and static imports; not all file accesses at launch."
+}

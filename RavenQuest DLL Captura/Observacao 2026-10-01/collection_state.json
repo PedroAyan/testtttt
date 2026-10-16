@@ -1,0 +1,15 @@
+﻿{
+    "started_at":  "2026-10-01T16:20:04.5529445-03:00",
+    "scope":  "passive ETW plus process module metadata; no injection or client changes",
+    "requested_seconds":  30,
+    "trace_started":  true,
+    "trace_path":  "C:\\Users\\ayan-\\Documents\\ChatGPT\\test bot ravenquest\\capture_inspection\\startup_observation_20261001\\startup.etl",
+    "process_samples":  44,
+    "start_exit_code":  0,
+    "start_output":  "",
+    "stop_exit_code":  -2147417850,
+    "stop_output":  "wpr.exe : \r\nNo C:\\Users\\ayan-\\Documents\\ChatGPT\\test bot \r\nravenquest\\capture_inspection\\startup_observation_20261001\\collect_startup.ps1:65 caractere:27\r\n+ ... topOutput = \u0026 $taskWpr -stop $taskTrace \u0027RavenQuest passive startup o ...\r\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\n\tNÒo Ú possÝvel alterar o modo de thread depois de o mesmo estar definido.\r\n\r\n\r\n\tProfile Id: RunningProfile\r\n\t\r\n\tError code: 0x80010106",
+    "finished_at":  "2026-10-01T16:21:18.0623607-03:00",
+    "completed":  true,
+    "unique_module_records":  65
+}
